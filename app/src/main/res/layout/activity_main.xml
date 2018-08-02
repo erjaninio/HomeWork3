@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/ma_et_number"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:text=""
+            android:textAlignment="textEnd" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/ma_b7"
+                    android:text="@string/_7"
+                    android:onClick="onClick"
+                    tools:ignore="OnClick"/>
+                <Button
+                    android:id="@+id/ma_b8"
+                    android:text="@string/_8"
+                    android:onClick="onClick"
+                    tools:ignore="OnClick"/>
+                <Button
+                    android:id="@+id/ma_b9"
+                    android:text="@string/_9"
+                    android:onClick="onClick"
+                    tools:ignore="OnClick"/>
+                <Button
+                    android:id="@+id/ma_b_division"
+                    android:text="@string/division"
+                    android:onClick="onClick"
+                    tools:ignore="OnClick"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/ma_b4"
+                    android:text="@string/_4"
+                    android:onClick="onClick"
+                    tools:ignore="OnClick"/>
+                <Button
+                    android:id="@+id/ma_b5"
+                    android:text="@string/_5"
+                    android:onClick="onClick"
+                    tools:ignore="OnClick"/>
+                <Button
+                    android:id="@+id/ma_b6"
+                    android:text="@string/_6"
+                    android:onClick="onClick"
+                    tools:ignore="OnClick"/>
+
+                <Button
+                    android:id="@+id/ma_b_multiplication"
+                    android:text="@string/multiplication"
+                    android:onClick="onClick"
+                    tools:ignore="OnClick"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/ma_b1"
+                    android:text="@string/_1"
+                    android:onClick="onClick"
+                    tools:ignore="OnClick"/>
+                <Button
+                    android:id="@+id/ma_b2"
+                    android:text="@string/_2"
+                    android:onClick="onClick"
+                    tools:ignore="OnClick"/>
+                <Button
+                    android:id="@+id/ma_b3"
+                    android:text="@string/_3"
+                    android:onClick="onClick"
+                    tools:ignore="OnClick"/>
+
+                <Button
+                    android:id="@+id/ma_b_substraction"
+                    android:text="@string/substraction"
+                    android:onClick="onClick"
+                    tools:ignore="OnClick"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/ma_b_c"
+                    android:text="@string/c"
+                    android:onClick="onClick"
+                    tools:ignore="OnClick" />
+                <Button
+                    android:id="@+id/ma_b0"
+                    android:text="@string/_0"
+                    android:onClick="onClick"
+                    tools:ignore="OnClick" />
+                <Button
+                    android:id="@+id/ma_b_comma"
+                    android:text="@string/comma"
+                    android:onClick="onClick"
+                    tools:ignore="OnClick" />
+                <Button
+                    android:id="@+id/ma_b_plus"
+                    android:text="@string/plus"
+                    android:onClick="onClick"
+                    tools:ignore="OnClick"/>
+            </TableRow>
+        </TableLayout>
+        <Button
+            android:id="@+id/ma_b_equally"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/equally"
+            android:onClick="onClick"
+            tools:ignore="OnClick"/>
+    </LinearLayout>
+
+
+
+</android.support.v7.widget.LinearLayoutCompat>
